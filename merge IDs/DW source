@@ -1,0 +1,28 @@
+%dw 2.0
+import * from dw::core::Arrays
+output application/json
+var a2 = [
+        {
+            id:1,
+            Age: 28,
+            Gender: 'M'
+        },
+        {
+            id:4,
+            Age: 29,
+            Gender: 'M'
+        },
+        {
+            id: 3,
+            Age: 25,
+            Gender: 'F'
+        }
+]
+---
+leftJoin(a2, payload, (list1) -> list1.id, (list2) -> list2.id)
+map(item, index) -> {
+id: item.l.id,
+Age: item.l.Age,
+Gender: item.l.Gender,
+name: item.r.name
+}
