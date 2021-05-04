@@ -1,0 +1,44 @@
+[
+    {
+        "49617923841799951699932679045858683963311547642938392578": {
+            "message": "{\r\n  \"tickerSymbol\": \"AMZN\", \r\n  \"tradeType\": \"SELL\", \r\n  \"price\": 3385.07,\r\n  \"quantity\": 7, \r\n  \"id\": 35671290300\r\n}",
+            "attributes": {
+                "subSequenceNumber": 0,
+                "sequenceNumber": "49617923841799951699932679045858683963311547642938392578",
+                "encryptionType": null,
+                "shardId": "shardId-000000000000",
+                "aggregated": false,
+                "partitionKey": "AMZN",
+                "approximateArrivalTimestamp": "2021-05-04T00:37:48.823Z"
+            }
+        }
+    },
+    {
+        "49617923841799951699932679045859892889131162340832575490": {
+            "message": "{\r\n  \"tickerSymbol\": \"AMZN\", \r\n  \"tradeType\": \"BUY\", \r\n  \"price\": 3378.15,\r\n  \"quantity\": 20, \r\n  \"id\": 3567129078\r\n}",
+            "attributes": {
+                "subSequenceNumber": 0,
+                "sequenceNumber": "49617923841799951699932679045859892889131162340832575490",
+                "encryptionType": null,
+                "shardId": "shardId-000000000000",
+                "aggregated": false,
+                "partitionKey": "AMZN",
+                "approximateArrivalTimestamp": "2021-05-04T00:37:49.082Z"
+            }
+        }
+    },
+    {
+        "49617923841799951699932679045861101814950776970007281666": {
+            "message": "{\r\n  \"tickerSymbol\": \"CRM\", \r\n  \"tradeType\": \"BUY\", \r\n  \"price\": 220.39,\r\n  \"quantity\": 20, \r\n  \"id\": 3567129080\r\n}",
+            "attributes": {
+                "subSequenceNumber": 0,
+                "sequenceNumber": "49617923841799951699932679045861101814950776970007281666",
+                "encryptionType": null,
+                "shardId": "shardId-000000000000",
+                "aggregated": false,
+                "partitionKey": "CRM",
+                "approximateArrivalTimestamp": "2021-05-04T00:37:49.347Z"
+            }
+        }
+    }
+]
