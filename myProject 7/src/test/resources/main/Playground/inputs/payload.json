@@ -1,0 +1,16 @@
+{
+   "name": "John",
+   "age": 30,
+   "address": {
+       "city": "New York",
+       "zipcode": "10001"
+   },
+   "phones": [
+       {"type": "mobile", "number": "1234567890"},
+       {"type": "home", "number": "9876543210"}
+   ],
+   "metadata": {
+       "creationDate": "2024-01-01",
+       "updatedBy": "admin"
+   }
+}
